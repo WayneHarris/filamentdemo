@@ -111,7 +111,7 @@ class BrandResource extends Resource
                             ->send();
                     }),
             ])
-            ->defaultSort('sort')
+            ->defaultSort('created_at')
             ->reorderable('sort');
     }
 
